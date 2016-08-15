@@ -1,0 +1,2745 @@
+2016-05-22 00:58:13 [192.168.18.227][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Request.php:190
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#3 {main}
+2016-05-22 00:58:13 [192.168.18.227][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.18.227
+2016-05-22 00:58:13 [192.168.18.227][-][-][info][application] $_COOKIE = [
+    '_csrf' => '7ec32d80fd02f7cf3b7028cd3f11ffba0377b2204dba4a38cc04eabfad4b7dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nALnVlhGCQa1Idwl6bU6ScHhgEE6f_Gs\";}'
+    '__zlcmid' => 'akfZDoZf58Uh6D'
+    'PHPSESSID' => 'mcqdjbplpt2svkhu5vkf6qltm5'
+    '_identity' => 'bddce3e7b828fda37fbdef61b7036455d1955aee917677419bea5d193372f9f9a:2:{i:0;s:9:\"_identity\";i:1;s:216:\"[116,\"ba846dabec3731dfdec0bacf490a8346ebb179119f9247fb0268b9a0efe08cdd02c46b6d28e333fc0ce69f676b9b6b5900be439f970a04e4fd4b6af4cd3d1facd38df297ec16bca1b3850b7705a5bad49d32868527f94a4560a582d023033be33cce0059\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.18.89'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.19 Safari/534.13'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_ACCEPT_CHARSET' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.3'
+    'HTTP_COOKIE' => '_csrf=7ec32d80fd02f7cf3b7028cd3f11ffba0377b2204dba4a38cc04eabfad4b7dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nALnVlhGCQa1Idwl6bU6ScHhgEE6f_Gs%22%3B%7D; __zlcmid=akfZDoZf58Uh6D; PHPSESSID=mcqdjbplpt2svkhu5vkf6qltm5; _identity=bddce3e7b828fda37fbdef61b7036455d1955aee917677419bea5d193372f9f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A216%3A%22%5B116%2C%22ba846dabec3731dfdec0bacf490a8346ebb179119f9247fb0268b9a0efe08cdd02c46b6d28e333fc0ce69f676b9b6b5900be439f970a04e4fd4b6af4cd3d1facd38df297ec16bca1b3850b7705a5bad49d32868527f94a4560a582d023033be33cce0059%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 192.168.18.89 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '192.168.18.89'
+    'SERVER_ADDR' => '192.168.18.89'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.18.227'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '1516'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463871493.106
+    'REQUEST_TIME' => 1463871493
+]
+2016-05-22 01:05:56 [192.168.18.89][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:05:56 [192.168.18.89][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.18.89
+2016-05-22 01:05:55 [192.168.18.89][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.18.89'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '59'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 192.168.18.89 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '192.168.18.89'
+    'SERVER_ADDR' => '192.168.18.89'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.18.89'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '51686'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463871955.972
+    'REQUEST_TIME' => 1463871955
+]
+2016-05-22 01:05:56 [192.168.18.89][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-05-22 01:05:55 [192.168.18.89][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.18.89'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '59'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 192.168.18.89 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '192.168.18.89'
+    'SERVER_ADDR' => '192.168.18.89'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.18.89'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '51686'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463871955.972
+    'REQUEST_TIME' => 1463871955
+]
+2016-05-22 01:06:30 [192.168.18.89][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:06:30 [192.168.18.89][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.18.89
+2016-05-22 01:06:29 [192.168.18.89][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.18.89'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '59'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 192.168.18.89 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '192.168.18.89'
+    'SERVER_ADDR' => '192.168.18.89'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.18.89'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '51690'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463871989.947
+    'REQUEST_TIME' => 1463871989
+]
+2016-05-22 01:06:30 [192.168.18.89][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-05-22 01:06:29 [192.168.18.89][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.18.89'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '59'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 192.168.18.89 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '192.168.18.89'
+    'SERVER_ADDR' => '192.168.18.89'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.18.89'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '51690'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463871989.947
+    'REQUEST_TIME' => 1463871989
+]
+2016-05-22 01:07:41 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Request.php:190
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#3 {main}
+2016-05-22 01:07:41 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'localhost'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'localhost'
+    'SSL_SERVER_S_DN_CN' => 'localhost'
+    'SSL_SERVER_I_DN_CN' => 'localhost'
+    'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.10'
+    'SSL_VERSION_LIBRARY' => 'OpenSSL/1.0.1i'
+    'SSL_PROTOCOL' => 'TLSv1.2'
+    'SSL_SECURE_RENEG' => 'true'
+    'SSL_COMPRESS_METHOD' => 'NULL'
+    'SSL_CIPHER' => 'ECDHE-RSA-AES128-GCM-SHA256'
+    'SSL_CIPHER_EXPORT' => 'false'
+    'SSL_CIPHER_USEKEYSIZE' => '128'
+    'SSL_CIPHER_ALGKEYSIZE' => '128'
+    'SSL_CLIENT_VERIFY' => 'NONE'
+    'SSL_SERVER_M_VERSION' => '1'
+    'SSL_SERVER_M_SERIAL' => 'B5C752C98781B503'
+    'SSL_SERVER_V_START' => 'Nov 10 23:48:47 2009 GMT'
+    'SSL_SERVER_V_END' => 'Nov  8 23:48:47 2019 GMT'
+    'SSL_SERVER_S_DN' => 'CN=localhost'
+    'SSL_SERVER_I_DN' => 'CN=localhost'
+    'SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'SSL_SERVER_A_SIG' => 'sha1WithRSAEncryption'
+    'SSL_SESSION_RESUMED' => 'Initial'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '51718'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463872061.158
+    'REQUEST_TIME' => 1463872061
+]
+2016-05-22 01:29:28 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:29:28 [::1][-][-][info][application] $_POST = [
+    'username' => 'rudman22@hotmail.com'
+    'password' => 'rudman22'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '49'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52063'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873368.207
+    'REQUEST_TIME' => 1463873368
+]
+2016-05-22 01:30:44 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:30:44 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '49'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52067'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873444.352
+    'REQUEST_TIME' => 1463873444
+]
+2016-05-22 01:30:44 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-05-22 01:30:44 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '49'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52067'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873444.352
+    'REQUEST_TIME' => 1463873444
+]
+2016-05-22 01:30:54 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:30:54 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '49'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52068'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873454.431
+    'REQUEST_TIME' => 1463873454
+]
+2016-05-22 01:30:54 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Bad Request: Invalid JSON data in request body: Syntax error.
+2016-05-22 01:30:54 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '49'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52068'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873454.431
+    'REQUEST_TIME' => 1463873454
+]
+2016-05-22 01:31:05 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:31:05 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '49'
+    'CONTENT_TYPE' => 'text/plain;charset=UTF-8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52075'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873465.779
+    'REQUEST_TIME' => 1463873465
+]
+2016-05-22 01:31:15 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:31:14 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '49'
+    'CONTENT_TYPE' => 'text/plain;charset=UTF-8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52078'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873474.933
+    'REQUEST_TIME' => 1463873474
+]
+2016-05-22 01:31:26 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:31:26 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '0'
+    'CONTENT_TYPE' => 'text/plain;charset=UTF-8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52079'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873486.493
+    'REQUEST_TIME' => 1463873486
+]
+2016-05-22 01:32:26 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:32:26 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '61'
+    'CONTENT_TYPE' => 'text/plain;charset=UTF-8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52088'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873546.321
+    'REQUEST_TIME' => 1463873546
+]
+2016-05-22 01:32:35 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 01:32:35 [::1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_LENGTH' => '61'
+    'CONTENT_TYPE' => 'text/plain;charset=UTF-8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52089'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463873555.008
+    'REQUEST_TIME' => 1463873555
+]
+2016-05-22 02:43:55 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:43:55 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52674'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463877835.141
+    'REQUEST_TIME' => 1463877835
+]
+2016-05-22 02:47:00 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:47:00 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52684'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878019.998
+    'REQUEST_TIME' => 1463878019
+]
+2016-05-22 02:47:16 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:47:15 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52685'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878035.93
+    'REQUEST_TIME' => 1463878035
+]
+2016-05-22 02:54:42 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:54:42 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52704'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878482.177
+    'REQUEST_TIME' => 1463878482
+]
+2016-05-22 02:57:53 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:57:53 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52745'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878673.256
+    'REQUEST_TIME' => 1463878673
+]
+2016-05-22 02:58:01 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:58:01 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52746'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878681.013
+    'REQUEST_TIME' => 1463878681
+]
+2016-05-22 02:58:07 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:58:06 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52747'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878686.976
+    'REQUEST_TIME' => 1463878686
+]
+2016-05-22 02:58:39 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:58:39 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52748'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878719.876
+    'REQUEST_TIME' => 1463878719
+]
+2016-05-22 02:59:09 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:59:09 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52749'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878749.907
+    'REQUEST_TIME' => 1463878749
+]
+2016-05-22 02:59:43 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 02:59:42 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52750'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463878782.942
+    'REQUEST_TIME' => 1463878782
+]
+2016-05-22 03:04:07 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:04:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52772'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879047.638
+    'REQUEST_TIME' => 1463879047
+]
+2016-05-22 03:04:12 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('rest\\modules\\v1...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('rest\\modules\\v1...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('rest\\modules\\v1...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('rest\\modules\\v1...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:04:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '52779'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879051.938
+    'REQUEST_TIME' => 1463879051
+]
+2016-05-22 03:12:16 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:12:16 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53004'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879536.398
+    'REQUEST_TIME' => 1463879536
+]
+2016-05-22 03:12:36 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:12:36 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53022'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879556.465
+    'REQUEST_TIME' => 1463879556
+]
+2016-05-22 03:13:08 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:13:08 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53034'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879588.16
+    'REQUEST_TIME' => 1463879588
+]
+2016-05-22 03:17:43 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:17:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53187'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879863.285
+    'REQUEST_TIME' => 1463879863
+]
+2016-05-22 03:17:50 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:17:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53188'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879869.967
+    'REQUEST_TIME' => 1463879869
+]
+2016-05-22 03:18:14 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:18:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53198'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879893.92
+    'REQUEST_TIME' => 1463879893
+]
+2016-05-22 03:18:35 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:18:35 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53205'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879915.722
+    'REQUEST_TIME' => 1463879915
+]
+2016-05-22 03:19:08 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:19:08 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53215'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463879948.298
+    'REQUEST_TIME' => 1463879948
+]
+2016-05-22 03:27:57 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:27:56 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53366'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463880476.933
+    'REQUEST_TIME' => 1463880476
+]
+2016-05-22 03:31:39 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:31:39 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53460'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463880699.107
+    'REQUEST_TIME' => 1463880699
+]
+2016-05-22 03:31:54 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:31:54 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53463'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463880714.014
+    'REQUEST_TIME' => 1463880714
+]
+2016-05-22 03:31:56 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:31:56 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53464'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463880716.699
+    'REQUEST_TIME' => 1463880716
+]
+2016-05-22 03:32:13 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(15): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:32:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53470'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463880733.013
+    'REQUEST_TIME' => 1463880733
+]
+2016-05-22 03:39:20 [192.168.18.227][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Request.php:190
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\cargapp\rest\web\index.php(16): yii\base\Application->run()
+#3 {main}
+2016-05-22 03:39:20 [192.168.18.227][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.18.227
+2016-05-22 03:39:19 [192.168.18.227][-][-][info][application] $_COOKIE = [
+    '__zlcmid' => 'akfZDoZf58Uh6D'
+    '_csrf' => '79777a234fe070f3bc7b60ce4546e92a1ef7ce7b1bed43dd8757cba67d123a09a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"OzYLxoFUIOLrDHJ70aPe13Wmy5Gxq6FZ\";}'
+    'PHPSESSID' => 'u14udaaagdg4ndqn0f7mrqvv71'
+    '_identity' => '15eab8316c9adebb2a7954f0032d2b2eba4f5c04f1f8cf3204ca970fa4427d10a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[0,\"fBgyRieIDmt8GoYCn6eNNVNpEwzWtVEU\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '192.168.18.89'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.19 Safari/534.13'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_ACCEPT_CHARSET' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.3'
+    'HTTP_COOKIE' => '__zlcmid=akfZDoZf58Uh6D; _csrf=79777a234fe070f3bc7b60ce4546e92a1ef7ce7b1bed43dd8757cba67d123a09a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22OzYLxoFUIOLrDHJ70aPe13Wmy5Gxq6FZ%22%3B%7D; PHPSESSID=u14udaaagdg4ndqn0f7mrqvv71; _identity=15eab8316c9adebb2a7954f0032d2b2eba4f5c04f1f8cf3204ca970fa4427d10a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B0%2C%22fBgyRieIDmt8GoYCn6eNNVNpEwzWtVEU%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 192.168.18.89 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '192.168.18.89'
+    'SERVER_ADDR' => '192.168.18.89'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.18.227'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '2456'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463881159.919
+    'REQUEST_TIME' => 1463881159
+]
+2016-05-22 03:39:43 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(16): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:39:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53754'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463881183.587
+    'REQUEST_TIME' => 1463881183
+]
+2016-05-22 03:39:49 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(16): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:39:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53757'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463881189.632
+    'REQUEST_TIME' => 1463881189
+]
+2016-05-22 03:39:58 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\rest\modules\v1\Module does not exist' in C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\rest\\module...')
+#1 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\rest\\module...')
+#2 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\rest\\module...', Array, Array)
+#3 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\rest\\module...', Array, Array)
+#4 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('v1')
+#6 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('v1/user/login')
+#7 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#8 C:\xampp\htdocs\cargapp\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\cargapp\rest\web\index.php(16): yii\base\Application->run()
+#10 {main}
+2016-05-22 03:39:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '127.0.0.1'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '44'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Python34\\;C:\\Python34\\Scripts\\'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.15'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/cargapp/rest/web/index.php'
+    'REMOTE_PORT' => '53759'
+    'REDIRECT_URL' => '/cargapp/rest/web/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cargapp/rest/web/v1/user/login'
+    'SCRIPT_NAME' => '/cargapp/rest/web/index.php'
+    'PHP_SELF' => '/cargapp/rest/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463881198.397
+    'REQUEST_TIME' => 1463881198
+]
