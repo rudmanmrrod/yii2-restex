@@ -5,6 +5,7 @@ Yii 2 basic template with DB authentication
 Yii 2 basic template with Rest Service, access to 2 DB tables (user,profile)
 
 **User** => Can list, view, create & login
+
 **Profile** => Can create, list, view & update
 
 > The system has internal desciption in rest view
@@ -12,8 +13,8 @@ Yii 2 basic template with Rest Service, access to 2 DB tables (user,profile)
 # How To
 
 1. Create DB
-2. COnfigure access in /config/db.php
-3. Run:
+2. Configure access in /config/db.php
+3. In project root run:
 ```
 php yii migrate
 ```
