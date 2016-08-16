@@ -8,7 +8,7 @@ Yii 2 basic template with Rest Service, access to 2 DB tables (user,profile)
 
 **Profile** => Can create, list, view & update
 
-> The system has internal desciption in rest view
+> The system has internal description in rest view
 
 # How To
 
