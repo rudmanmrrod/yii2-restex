@@ -50,6 +50,8 @@ return [
                 ['class' => 'yii\rest\UrlRule', 'controller' => ['user','v1/site',
                     'v1/userprofile','v1/user']
                 ],
+                'OPTIONS v1/user/login' => 'v1/user/login',
+                'POST v1/user/login' => 'v1/user/login',
             ],
         ],
         'db' => $db,

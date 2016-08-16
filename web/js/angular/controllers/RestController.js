@@ -1,15 +1,17 @@
-var app = angular.module("RestApp",[]);
+var app = angular.module("RestApp.Controllers");
 
-app.controller("restget",function($scope,$http){
+app.controller("profilecontroller",function($scope,$http){
 	$scope.cedula = '';
+	$scope.nombre = '';
+	$scope.apellido = '';
 	$scope.mensaje = '';
-	$scope.intentarGET = function(){
+	//Método por GET
+	$scope.sendGET = function(){
 		$scope.url = 'http://localhost/yii2-restex/rest/v1/userprofiles';
 		if($scope.cedula!='')
 		{
 			$scope.url+='/'+$scope.cedula;
 		}
-		console.log($scope.url);
 		$http.get($scope.url)
 		.success(function(data,status,config,headers){
 			console.log(data);
@@ -20,13 +22,7 @@ app.controller("restget",function($scope,$http){
 			$scope.mensaje = error;
 		});
 	};
-});
-
-app.controller("restpost",function($scope,$http){
-	$scope.cedula = '';
-	$scope.nombre = '';
-	$scope.apellido = '';
-	$scope.mensaje = '';
+	//Método por POST
 	$scope.sendPost = function(){
 		if($scope.cedula == '' || $scope.nombre == '' || $scope.apellido == '') {
 			$scope.error = "Faltan Campos por envíar";
@@ -47,13 +43,7 @@ app.controller("restpost",function($scope,$http){
 			});
 		}
 	};
-});
-
-app.controller("restput",function($scope,$http){
-	$scope.cedula = '';
-	$scope.nombre = '';
-	$scope.apellido = '';
-	$scope.mensaje = '';
+	//Método por PUT
 	$scope.sendPut = function(){
 		if($scope.cedula == '' || $scope.nombre == '' || $scope.apellido == '') {
 			$scope.error = "Faltan Campos por envíar";

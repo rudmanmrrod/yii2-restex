@@ -20,6 +20,7 @@ class SignupForm extends Model
     public function rules()
     {
         return [
+			[['username','password','email'], 'safe' ],
             ['username', 'filter', 'filter' => 'trim'],
             ['username', 'required'],
             ['username', 'unique', 'targetClass' => '\app\models\User', 'message' => 'This username has already been taken.'],

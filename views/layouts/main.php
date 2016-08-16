@@ -20,7 +20,9 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 	<script src="<?php echo Yii::getAlias('@web') ?>/js/angular/angular.js"></script>
+	<script src="<?php echo Yii::getAlias('@web') ?>/js/angular/modules.js" ></script>
 	<script src="<?php echo Yii::getAlias('@web') ?>/js/angular/controllers/RestController.js"></script>
+	<script src="<?php echo Yii::getAlias('@web') ?>/js/angular/controllers/UserController.js"></script>
 </head>
 <body>
 
