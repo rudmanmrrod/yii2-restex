@@ -1,5 +1,24 @@
-# yii2-basic
+# Yii2-basic
 Yii 2 basic template with DB authentication
+
+# Yii2-basic Rest
+Yii 2 basic template with Rest Service, access to 2 DB tables (user,profile)
+
+**User** => Can list, view, create & login
+
+**Profile** => Can create, list, view & update
+
+> The system has internal description in rest view
+
+# How To
+
+1. Create DB
+2. Configure access in /config/db.php
+3. In project root run:
+```
+php yii migrate
+```
+4. The site is ready to begin a test
 
 Yii 2 Basic Project Template
 ============================
